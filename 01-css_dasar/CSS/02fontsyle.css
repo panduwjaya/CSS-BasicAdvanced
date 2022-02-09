@@ -1,0 +1,44 @@
+/* 
+font family: mengatur jenis font apa yang digunakan
+-font-family: 'Courier New', Courier, serif; & font-family: nama font, generic family, serif;
+-font family terdiri atas nama font,generic dan sans-serif atau serif
+-font generic family berguna ketika browser tidak dapat menampilkan font yg diminta,maka akan digantikan oleh generic
+-apabila jenis font pada generic family tidak terdapat juga pada browser maka akan digunakan sans serif atau serif
+
+font size: mengatur ukuran font
+-satuannya terdiri atas px,% dan em
+
+font weight: mengatur ketebalan font
+-satuan terdiri dari lighter,normal,bold dan bolder
+-tersedia juga satuan dari 100-900
+
+font variant: mengatur font menjadi small caps
+-terdiri dari normal dan juga small caps
+-small caps berfungsi mengubah suatu kalimat menjadi kapital semua namun huruf awal lebih besar dari huruf lain
+
+font style: mengatur font menjadi cetak miring
+-terdiri atas normal,italic dan oblique
+-oblique merupakan style huruf miring seperti italic namun dalam bentuk pemaksaan
+-oblique dapat terjadi apabila font italic tidak ditemukan pada browser
+
+line height: mengatur spasi antar baris
+-terdiri atas normal,px dan em
+*/
+
+/* 
+tipe font sans-serif adalah tipe font yang tidak memiliki kaki
+tipe font serif adalah tipe font yang memiliki kaki
+*/
+
+/* juga terdapat shorthand dalam penulisan CSS */
+
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: normal;
+    font-variant: small-caps;
+    font-style: italic;
+}
+
+p{
+    color:rgb(58, 165, 197);
+}

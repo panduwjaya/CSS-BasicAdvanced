@@ -1,0 +1,8 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    color: blueviolet;
+}
+
+/* untuk melakukan inheritance color pada anchor link cukup menggunakan keyword "inheritance" */
+a{color: inherit;}/*fungsi dari penggunaan inheritance adalah agar,tulisan pada anchor link mengikuti warna tulisan pada body */
+/* jika tidak menggunakan inheritance maka warna pada anchor berwarna default link,yaitu berwarna biru */

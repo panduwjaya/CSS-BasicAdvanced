@@ -1,0 +1,62 @@
+/* 
+pesudo class yang dimiliki oleh sebuah elemen HTML yang membuat kita dapat mendefinisikan style pada
+"keadaan tertentu" dari elemen tersebut,semua itu akan berfungsi ketika menggunakan anchor atau a
+
+pseudo code yang berhubungan dengan link:
+
+:link
+style default pada sebuah link (a yang memiliki href)
+:hover
+style ketika kursor mouse berada diatas sebuah link/elemen
+:active
+style ketika sebuah link di-klik (keadaan aktif)
+:visited
+style ketika sebuah link sudah pernah dikunjungi sebelumnya (menggunakan browser yang sama)
+*/
+
+/* css dibawah ini berhubungan dengan psudo code link */
+.fisrt:link {
+    color:aquamarine;
+}
+
+.fisrt:hover {
+    color: rgb(221, 167, 19);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.fisrt:active {
+    font-style: italic;
+}
+
+.fisrt:visited {
+    color: brown;
+}
+
+/* pseudo class yang berhubungan dengan posisi elemen
+konsep:
+ul merupakan parent,sedangkan li adalah child berarti ul memliki 5 child
+
+:first-child
+memilih elemen pertama dari sebuah parent (elemen pembungkusnya)
+:last-child
+memilih elemen terakhir dari sebuah parent (elemen pembungkusnya)
+:nth-child(n)
+memilih elemen ke-n dari sebuah parent (elemen pembungkusnya)
+n bisa berarti urutan (1)(2) dst. atau pola (2n)(3n+2)(4n-1) atau ganjil/genapa yaitu (even)&(odd)
+*/
+
+/* css dibawah ini berhubungan dengan pseudo class posisi */
+
+
+
+
+
+
+/*pseudo class yang berhubungan dengan posisi elemen*/
+/* 
+:first-of-type
+memilih elemen pertama dari sebuah jenis/tipe tag
+:last-of-type
+memilih elemen terakhir dari sebuah jenis/tipe tag
+*/

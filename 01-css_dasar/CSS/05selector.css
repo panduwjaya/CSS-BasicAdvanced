@@ -1,0 +1,43 @@
+/* selector berfungsi untuk:
+digunakan pada css untuk mengenali sebuah elemen html yang akan diberi style
+-elemen html seperti h1,h2 dan h3 dst.
+-id
+-class
+-complex selector 
+*/
+
+/* PENULISAN ID DAN CLASS */
+/* 
+-DALAM PENULISAN ID DIAWALI DENGAN #
+-DALAM PENULISAN CLASS DIAWALI DENGAN TITIK(.)
+*/
+
+/* ID */
+/* 
+-SETIAP HALAMAN HANYA BOLEH MEMILIKI 1 ELEMEN DENGAN ID TERSEBUT
+-DAPAT DIGUNAKAN SEBAGAI PENANDA HALAMAN UNTUK LINK
+-DIGUNAKAN UNTUK JAVASCRIPT
+-SEBAIKNYA TIDAK DIGUNAKAN UNTUK CSS(LEBIH BAIK GUNAKAN CLASS)
+BEBAN MUATAN PADA HTML = ELEMEN (1X) CLASS (10X) ID (100X)
+*/
+
+
+body{
+    font-family: arial,sans-serif;
+}
+
+h1,h2 {
+    color:goldenrod;
+}
+
+ul li {
+    color:blueviolet;
+}
+
+.p1 {
+    color: coral;
+}
+
+.p2 {
+    color:brown;
+}

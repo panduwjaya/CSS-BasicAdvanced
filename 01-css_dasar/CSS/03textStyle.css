@@ -1,0 +1,29 @@
+/* 
+TEXT STYLE
+text style berbeda dengan font style
+*font itu seperti arial,time new roman dll
+*text itu seperti align,indent dll
+
+color: berfungsi untuk memberi warna pada tulisan
+-terdiri atas warna biasa,hexadecimal dan rgb
+
+text-allign: berfungsi untuk mengatur format paragrap atau rata kiri kana/justify dsb
+-terdiri dari left,right,center dan justify
+
+text-indent: berfungsi untuk memberi identasi pada paragrap,atau berupa lebar spasi pada pembuka paragrap
+-terdiri dari px dan %
+
+text-decoration: berfungsi untuk mengatur dekorasi seperti underline dll
+-terdiri dari none,underline,overline,line-through
+-overline = garis berada diatas tulisa
+-line-through =  garis mencoret tulisan
+
+text-transform: berfungsi untuk mengubah huruf menjadi besar,kecil/kapital
+-terdiri dari none,lowercase,uppercase dan capitalize
+
+letter-spacing: berfungsi untuk mengatur spasi antar huruf
+-terdiri dari px dan %
+
+word-spacing: berfungsi untuk mengatur spasi antar kata
+-terdiri dari px dan %
+*/

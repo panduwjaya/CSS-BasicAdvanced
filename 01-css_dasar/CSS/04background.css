@@ -1,0 +1,41 @@
+/* 
+background pada CSS
+
+background-color: berfungsi mengatur warna pada background
+background-image: berfungsi mengatur gambar yang akan digunakan pada background
+background-position: berfungsi mengatur posisi pada gambar
+
+background position dapat digunakan apabila background repeat bernilai no-repeat
+-terdiri atas:
+*top left,top center,top right,center left,center center,center right
+*bottom left,bottom center,bottom right
+*bisa juga menggunakan x% y% dan x-pos y-pos
+
+background-repeat: mengatur jenis pengulangan gambar pada background
+*/
+
+/* cara penulisan shorthand background
+background: color url() position repeat;
+*/
+
+h2{
+    color: sandybrown;
+    font-family: arial,sans-ser;
+    text-align: center;
+}
+
+body{
+    background-color:aquamarine;
+    /* pilihan pada img01
+    -img01-x.png
+    -img01-y.png
+    */
+    background-image: url(/00-img/img01.png);
+    /*pilihan pada background repeat adalah 
+    -repeat-x
+    -repeat-y
+    -no-repeat
+    */
+    background-repeat: repeat-x;
+    /*  */
+}
